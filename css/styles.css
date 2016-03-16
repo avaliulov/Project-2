@@ -110,6 +110,10 @@ header {
 	padding: 0 5px;
 }
 
+.fn {
+	display: none
+}
+
 .footer-nav .name {
 	margin-right: auto;
 }
@@ -153,6 +157,7 @@ a:active {
 	margin: 0 auto 30px;
 	max-width: 350px;
 	text-align: left;
+	-webkit-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 }
 
@@ -190,7 +195,8 @@ a:active {
 		margin-left: 10px;
 	}
 	.content-first,
-	.content-second {
+	.content-second,
+	.content-third {
 		display: inline-block;
 		margin: 0 auto;
 		max-width: 450px;
@@ -200,6 +206,13 @@ a:active {
 	.main p {
 		width: 330px;
 		height: 100%;
+	}
+	.back {
+		display: none;
+	}
+	.fn {
+		display: flex;
+		padding-left: 10px;
 	}
 }
 
@@ -236,5 +249,12 @@ a:active {
 	.main img,
 	.main p {
 		width: 300px;
+	}
+	.back {
+		display: none;
+	}
+	.fn {
+		display: flex;
+		padding-left: 10px;
 	}
 }
